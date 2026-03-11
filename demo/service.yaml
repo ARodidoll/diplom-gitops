@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demo
+  namespace: project-886eef93-f40a-4b2c-887b-dda9b685cc60
+spec:
+  type: ClusterIP
+  selector:
+    app: demo
+  ports:
+    - port: 8080
+      targetPort: 8080

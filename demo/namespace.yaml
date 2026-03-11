@@ -1,0 +1,4 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: project-886eef93-f40a-4b2c-887b-dda9b685cc60
