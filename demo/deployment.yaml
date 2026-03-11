@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: demo
-          image: ghcr.io/arodidoll/arodidoll/demo:1773255940
+          image: ghcr.io/arodidoll/arodidoll/demo:1773256187
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
